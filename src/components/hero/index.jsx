@@ -52,7 +52,7 @@ const Hero = () => {
 
             {/* first popout */}
             <Popout framerProp={CHILD_ANIMATION( )} extraStyles={'absolute top-10 -right-2 md:-right-20'} title='Order Accepted' caption='Vendor has accepted your order' />
-            <Popout framerProp={CHILD_ANIMATION({duration :1.4})} extraStyles={'absolute bottom-10 -left-2 md:-left-20'} title='Order Completed' caption='Gas delivered successfully'/>
+            <Popout framerProp={CHILD_ANIMATION({duration :1.4})} extraStyles={'absolute bottom-10 -left-2 md:-left-10'} title='Order Completed' caption='Gas delivered successfully'/>
            
 
           </motion.div>

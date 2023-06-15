@@ -913,6 +913,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1061,6 +1066,14 @@ video {
     right: -5rem;
   }
 
+  .md\:-left-14 {
+    left: -3.5rem;
+  }
+
+  .md\:-left-10 {
+    left: -2.5rem;
+  }
+
   .md\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1088,6 +1101,10 @@ video {
 
   .md\:min-w-\[50\%\] {
     min-width: 50%;
+  }
+
+  .md\:min-w-\[48\%\] {
+    min-width: 48%;
   }
 
   .md\:gap-5 {
