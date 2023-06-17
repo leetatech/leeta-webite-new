@@ -31,7 +31,7 @@ export const CHILD_ANIMATION = (props = {}) => {
       y: props.yEnd ?? 0,
       opacity: 1,
       transition: {
-        tyoe: "Inertia",
+        type: "Inertia",
         ease: props.ease ?? "anticipate",
         duration: props.duration ?? 1.5,
       },
