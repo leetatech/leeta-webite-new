@@ -9,8 +9,6 @@ import { CHILD_ANIMATION, PARENT_ANIMATION } from '../../utils';
 const Hero = () => {
 
   const heading = "Safer and convenient way to order ".split('');
-  
-  heading.map( letter => console.log(letter));
 
   return (
     <header className='mt-10 md:mt-0 h-auto md:min-h-[80vh] flex items-center'>
@@ -51,7 +49,7 @@ const Hero = () => {
              
 
             {/* first popout */}
-            <Popout framerProp={CHILD_ANIMATION( )} extraStyles={'absolute top-10 -right-2 md:-right-20'} title='Order Accepted' caption='Vendor has accepted your order' />
+            <Popout framerProp={CHILD_ANIMATION()} extraStyles={'absolute top-10 -right-2 md:-right-20'} title='Order Accepted' caption='Vendor has accepted your order' />
             <Popout framerProp={CHILD_ANIMATION({duration :1.4})} extraStyles={'absolute bottom-10 -left-2 md:-left-10'} title='Order Completed' caption='Gas delivered successfully'/>
            
 
