@@ -19,9 +19,12 @@ const Hero = () => {
           initial="hidden"
           animate="visible"
         >
+          
           { heading.map((letter, index) => (
             <motion.h2 key={index} variants={CHILD_ANIMATION()} className={`inline text-start text-[48px] md:text-[64px] leading-[58px] md:leading-[86px] font-[600px] tracking-tighter ${index > 33 ? 'text-[#FD671E]': ''}`}>{letter}</motion.h2>
           ))}
+
+
           <motion.span variants={CHILD_ANIMATION()} className='inline text-start text-[48px] md:text-[64px] leading-[58px] md:leading-[86px] font-[600px] tracking-tighter text-[#FD671E]'>gas</motion.span>
           <motion.p variants={CHILD_ANIMATION()} className="text-start w-[80%] md:w-[60%] font-light mt-8">Leeta makes it easy for customers to purchase gas anywhere and anytime from the convenience of homes or offices.</motion.p>
 
