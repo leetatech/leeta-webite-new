@@ -5,7 +5,9 @@ import { ARROW_RIGHT } from '../../assets/icons';
 
 const Button = ( {label, extraStyles, variant} ) => {
   return (
-    <motion.button variant={variant} className={`flex justify-center items-center w-[65%] md:w-[50%] gap-4 bg-[#FD671E] text-white hover:bg-[#d45a1c]  h-[56px] px-5 rounded-lg ${extraStyles}`}>{ label ? label : 'button' } <span> <img src={ARROW_RIGHT}/></span></motion.button>
+    <motion.button 
+      variant={variant} 
+      className={`flex justify-center items-center w-[65%] md:w-[50%] gap-4 bg-[#FD671E] text-white hover:bg-[#d45a1c]  h-[56px] px-5 rounded-lg ${extraStyles}`}>{ label ? label : 'button' } <span> <img src={ARROW_RIGHT}/></span></motion.button>
   )
 }
 
